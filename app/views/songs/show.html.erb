@@ -1,0 +1,8 @@
+<h1>My Song:</h1>
+<h2><%= @song.name %></h2>
+
+<h1>My Genre:</h1>
+<h2><%= link_to @song.genre.name, @song.genre %></h2>
+
+<h1>My Artist:</h1>
+<h2><%= link_to @song.artist.name, @song.artist %></h2>
